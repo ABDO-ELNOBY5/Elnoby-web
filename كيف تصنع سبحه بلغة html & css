@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title></title>
+        <style type="text/css" media="all">
+            body
+            {
+                background-color: #AFAFAF;
+            }
+            .fieldset1
+            {
+                background-color: white;
+                border-style: solid;
+                border-color: black;
+                border-radius:10px ;
+                border-width: 1px;
+            }
+            .text
+            {
+                color: red;
+                font-size:10px;
+                text-align:center;
+            }
+            .text1
+            {
+                font-size: 12px;
+            }
+            .p2
+            {
+                background-color: #E4E4E4;
+                border-radius: 10px;
+                padding: 10px;
+                font-size: 15px;
+            }
+            .p1
+            {
+                font-size: 8px;
+                color: green;
+            }
+            hr
+            {
+                border-color: red;
+                border-style: dotted;
+            }
+            div
+            {
+                background-color: #D8D8D8;
+               direction: ltr;
+                border-radius:10px ;
+                
+            }
+            .HTML
+            {
+                background-color: #FF5600;
+                width: 100px;
+                height: 30px;
+                color: white;
+                border-radius: 10px;
+                text-align: center;
+            }
+            .textr
+            {
+                border-color: gold;
+                border-style: solid;
+                border-radius:10px ;
+                background-color: black;
+                padding: 10px;
+                font-size: 10px;
+                color: green;
+             
+            }
+            .Csh
+            {
+                background-color: blue;
+                color: white;
+                border-radius: 10px;
+            }
+            .runo
+            {
+                background-color: white;
+                border-radius: 10px;
+                
+                border-style: solid;
+                border-color: #FF9400;
+                
+            }
+            .elnoby
+            {
+                background-color: red;
+                color: white;
+                border-radius: 10px;
+                font-size: 10px;
+            }
+            .fieldset{
+            width:200px ;
+            height: 230px;
+            border-radius: 100px;
+            border-style: none;
+           margin-top:-10px ;
+          margin-left: 50px;
+          BACKGROUND-color: #660090;
+          box-shadow:0px 0px 10px 5px #4D4D4D;
+          position: absolute;
+        }
+            .screen
+            {
+                background-color: #4C6E42;
+                margin-top: -15px;
+                border-radius:10px ;
+                width: 200px;
+                height: 40px;
+                border-style: none;
+                font-size: 20px;
+                color: #00E1FF;
+                padding: 5px;
+                box-shadow: 0px 0px 1px 3px white;
+            }
+            .button
+            {
+                background-color: #767676;
+                border-style: none;
+                border-radius:100px ;
+                width: 50px;
+                height: 50px;
+                margin-top: 40px;
+                margin-left: ;
+                box-shadow: 0px 0px 10px 1px #B4B4B4;
+            }
+            .reset
+            {
+                background-color: #767676;
+                border-style: none;
+                border-radius:100px ;
+                width: 30px;
+                height: 30px;
+                margin-top: -70px;
+                margin-left: 100px;
+                box-shadow: 0px 0px 10px 1px #B4B4B4;
+            }
+            .form
+            {
+                margin-top: 50px;
+            }
+            .tex
+            {
+                background-color: black;
+                color: white;
+                width: 200px;
+            }
+            .azam1
+            {
+                background-color: #D2D2D2;
+                border-top-right-radius:100px ;
+                border-top-left-radius:100px ;
+                width: 100px;
+                height:300px ;
+                margin-top: 100px;
+                margin-left: 95px;
+                border-style: none;
+                
+            }
+            .azam2
+            {
+                background-color: #D2D2D2;
+                border-bottom-right-radius:100px ;
+                border-bottom-left-radius:100px ;
+                width: 100px;
+                height:300px ;
+                margin-top:200px;
+                margin-left: 95px;
+                border-style: none;
+               
+            }
+            .div1
+            {
+                background-color: white;
+                width: 25px;
+                height: 25px;
+                border-radius: 100px;
+                margin-top: 20px;
+                margin-left: 35px;
+            }
+            .div2
+            {
+                background-color: white;
+                width: 25px;
+                height: 25px;
+                border-radius: 100px;
+                margin-top: 30px;
+                margin-left: 35px;
+            }
+            .div3
+            {
+                background-color: white;
+                width: 25px;
+                height: 25px;
+                border-radius: 100px;
+                margin-top: 30px;
+                margin-left: 35px;
+            }
+            .div4
+            {
+                background-color: white;
+                width: 25px;
+                height: 25px;
+                border-radius: 100px;
+                margin-top: 30px;
+                margin-left: 35px;
+            }
+            .div5
+            {
+                background-color: white;
+                width: 25px;
+                height: 25px;
+                border-radius: 100px;
+                margin-top: 30px;
+                margin-left: 35px;
+            }
+            .div6
+            {
+                background-color: #D2D2D2;
+                width: 23px;
+                height: 23px;
+                border-radius: 100px;
+                margin-top: 50px;
+                margin-left: 35px;
+                box-shadow: 0px 0px 1px 1px black;
+            }
+            .div7
+            {
+                background-color: #D2D2D2;
+                width: 23px;
+                height: 23px;
+                border-radius: 100px;
+                margin-top: 30px;
+                margin-left: 35px;
+                box-shadow: 0px 0px 1px 1px black;
+            }
+            .div8
+            {
+                background-color: #D2D2D2;
+                width: 23px;
+                height: 23px;
+                border-radius: 100px;
+                margin-top: 30px;
+                margin-left: 35px;
+                box-shadow: 0px 0px 1px 1px black;
+            }
+            .div9
+            {
+                background-color: #D2D2D2;
+                width: 23px;
+                height: 23px;
+                border-radius: 100px;
+                margin-top: 30px;
+                margin-left: 35px;
+                box-shadow: 0px 0px 1px 1px black;
+            }
+            .div10
+            {
+                background-color: #D2D2D2;
+                width: 23px;
+                height: 23px;
+                border-radius: 100px;
+                margin-top: 30px;
+                margin-left: 35px;
+                box-shadow: 0px 0px 1px 1px black;
+            }
+            .table
+            {
+                background-color: black;
+                border-radius: 10px;
+                width: 310px;
+                color: white;
+                font-size: 10px;
+                border-style: dashed;
+                
+                border-color: #660075;
+            }
+            .tab1
+            {
+                width: 50px;
+                color: #9A9A9A;
+                
+            }
+            .tab2
+            {
+                width:50px ;
+                color:#9A9A9A ;
+            }
+            .tab3
+            {
+                text-align: center;
+                font-size: 8px;
+                width: 100px;
+                color: #9D9D9D;
+            }
+            
+            .divdiv
+            {
+                font-size: 10px;
+                color: #1F00FF;
+            }
+            .button55
+            {
+                background-color: #FF0001;
+                color: white;
+                border-style: dashed;
+                border-radius: 10px;
+                border-color: gold;
+            }
+            .button56
+            {
+                background-color: blue;
+                color: white;
+                border-style: dashed;
+                border-radius: 10px;
+                border-color: gold;
+            }
+            .code
+            {
+                background-color: #FF9600;
+                color: white;
+                border-radius: 10px;
+            }
+            
+            .texttext
+            {
+                background-color:#D0FFFD ;
+                font-size: 12px;
+            }
+            .hhho
+            {
+                color: red;
+            }
+            li
+            {
+                color: #FFA600;
+            }
+            .colour
+            {
+                font-size: 12px;
+                color: #FF004D;
+            }
+            .god
+            {
+                color: blue;
+                font-size: 10px;
+            }
+            .gpl
+            {
+                border-radius: 10px;
+                border-style: dashed;
+                border-color: #1400FF;
+            }
+            .gggggg
+            {
+                border-top-right-radius: 200px;
+                width: 20px;
+                border-top-left-radius: 200px;
+                border-style: none;
+                background-color: #D7D7D7;
+                height: 50px;
+            }
+            .tgrba1
+            {
+                background-color: white;
+                width: 10px;
+                height: 10px;
+            }
+            .tgrba2
+            {
+                background-color: white;
+                width: 10px;
+                height: 10px;
+                margin-top: 5px;
+            }
+            .buttonon1
+            {
+                background-color: #747474;
+                border-radius: 50px;
+                border-style: none;
+                width:50px ;
+                height: 50px;
+            }
+            .buttonon2
+            {
+                background-color: #747474;
+                border-radius: 50px;
+                border-style: none;
+                width:30px ;
+                height: 30px;
+            }
+            .inputty
+            {
+                background-color: #386A3A;
+                border-style: solid;
+                border-color: #D8D8D8;
+                border-width: 5px;
+                border-radius: 10px;
+            }
+            .gogpl
+            {
+                border-style: none;
+                border-radius: 10px;
+                background-color: #7F267C;
+                width: 100px;
+                height: 50px;
+                box-shadow: 0px 0px 10px 5px #8E8E8E;
+            }
+            .WEB
+            {
+                border-radius: 10px;
+                border-color:gold ;
+                border-style: solid;
+                text-decoration: none;
+                border-width: 1px;
+                background-color: #08003F;
+         
+            }
+            a:link
+            {
+                text-decoration: none;
+               
+            }
+            .tree
+            {
+                color: white;
+            }
+        </style>
+    </head>
+    <body dir="rtl" align="center">
+        <fieldset class="fieldset1">
+            <fieldset class="WEB" >
+                <a href="">
+                    <b class="tree">ELNOBY WEB</b>
+                </a>
+            </fieldset>
+           <b class="text" >بسم الله الرحمن الرحيم </b>
+           <br />
+           <b class="text1">« اللهم ما صلى و سلم على سيدنا محمد وعلى اله وصحبه اجمعين »</b>
+           <p class="p2" align="right"><b> هُنا سنتعلم كيف تصنع سبحه اكترونى بلغة HTML & CSS .</b></p>
+           <hr />
+           <p class="code"><b>الشرح</b></p>
+           <p class="texttext">لنصنع سبحه اكترونى اولا علينا أحضار الوسوم لكى نصنع به السبحه الالكتروني </p>
+           <p align="right" class="hhho">
+               ما هى الأدوات التي فى السبحه ؟ 
+           </p>
+           <ol align="right">
+             <li>الحزام </li>
+               <li>الأزرار</li>
+               <li> الشاشة</li>
+              <li>واجهة السبحه</li>
+           </ol>
+           <p align="right" class="colour">١- الحزام :-</p>
+           <fieldset align="right" class="gpl">
+               <b class="god">وسم fieldset : لبناء شكل الحزام و سوف اعدله بلغة css .</b>
+               <br />
+               <b class="god">وسم  div : لبناء فتحت اللى فى الحزام و سوف اعدله بلغة css . </b><br />
+               <fieldset class="gggggg">
+                <div class="tgrba1"></div>
+                <div class="tgrba2"></div>
+               </fieldset>
+           </fieldset>
+           <p align="right" class="colour"> ٢- الأزرار :-</p>
+           <fieldset align="right" class="gpl">
+               <b class="god">وسم button فقط : لصغط عليه لكى تظهر الارقام فى الشاشه .</b>
+               <br />
+               <b class="god">وسم button reset : زر الإعادة ؛ لإعادة الشاشه .</b><br />
+               <button class="buttonon1"></button>
+               <button class="buttonon2"></button>
+           </fieldset>
+           <p align="right" class="colour">٣- الشاشه:-</p>
+           <fieldset align="right" class="gpl">
+               <b class="god">وسم input text : لبناء شاشة السبحه .</b>
+               <br />
+               <input type="text" class="inputty"
+               disabled placeholder="شاشة السبحه"/>
+           </fieldset>
+           <p align="right" class="colour">٤-واجهة السبحه :-</p>
+           <fieldset align="right" class="gpl">
+               <b class="god">وسم fieldset : لبناء  واجهة السبحه .</b>
+               <br />
+               <fieldset class="gogpl">
+                   
+               </fieldset>
+               
+           </fieldset>
+           <hr />
+           <p class="code"><b>الشفيرة البرمجية </b></p>
+           <p class="p1" align="right"> ١ - نكتب شفيرة لغة html :-</p>
+           <div align="left">
+               <b class="HTML">HTML</b>
+               <fieldset dir="ltr" class="textr">
+                <b>
+                    <code>
+              &lt;fieldset class="belt1"&gt;
+              <br />
+            &lt;div class="div1"&gt;
+                
+            &lt;/div&gt;
+            &lt;div class="div2"&gt;
+                
+            &lt;/div&gt;
+            <br />
+            &lt;div class="div3"&gt;
+                
+            &lt;/div&gt;
+            <br />
+            &lt;div class="div4"&gt;
+                
+            &lt;/div&gt;
+            <br />
+            &lt;div class="div5"&gt;
+                
+            &lt;/div&gt;
+            <br />
+        &lt;/fieldset&gt;
+        <br />
+        &lt;fieldset class="fieldset" dir="rtl" align="center"&gt;
+            <br />
+            &lt;form name="sba" class="form"&gt;
+            <br />
+                    &lt;input type="text" id="screen"  placeholder="0" class="screen" disabled/&gt;
+                <br />
+                    &lt;input type="button" value="" onclick="sba.screen.value-=-' 1'" class="button"/&gt;
+                    <br />
+                    &lt;input type="reset" value="" onclick="sba.screen.value+=''" class="reset"/&gt;
+                    <br />
+            &lt;/form&gt;
+            <br />
+        &lt;/fieldset&gt;
+        <br />
+        &lt;fieldset class="belt2"&gt;
+              <br />
+            &lt;div class="div6"&gt;
+                
+            &lt;/div&gt;
+            &lt;div class="div7"&gt;
+                
+            &lt;/div&gt;
+            <br />
+            &lt;div class="div8"&gt;
+                
+            &lt;/div&gt;
+            <br />
+            &lt;div class="div9"&gt;
+                
+            &lt;/div&gt;
+            <br />
+            &lt;div class="div10"&gt;
+                
+            &lt;/div&gt;
+            <br />
+        &lt;/fieldset&gt;
+                    </code>
+                </b>
+               </fieldset>
+           </div>
+           <p align="right" class="p1">٢ - نكتب شفيرة css :- </p>
+           <div align="left">
+               <b class="Csh">CSS</b>
+               <fieldset class="textr" dir="ltr">
+                   <b>
+                       <code>
+                           .fieldset{
+                           <br />
+            width:200px ;
+            <br />
+            height: 230px;
+            <br />
+            border-radius: 100px;
+            <br />
+            border-style: none;
+            <br />
+           margin-top:-10px ;
+           <br />
+          margin-left: 50px;
+          <br />
+          BACKGROUND-color: #660090;
+          <br />
+          box-shadow:0px 0px 10px 5px #4D4D4D;
+          <br />
+          position: absolute;
+          <br />
+        }
+        <br />
+            .screen
+            {
+            <br />
+                background-color: #4C6E42;
+                <br />
+                margin-top: -15px;
+                <br />
+                border-radius:10px ;
+                <br />
+                width: 200px;
+                <br />
+                height: 40px;
+                <br />
+                border-style: none;
+                <br />
+                font-size: 20px;
+                <br />
+                color: #00E1FF;
+                <br />
+                padding: 5px;
+                <br />
+                box-shadow: 0px 0px 1px 3px white;
+                <br />
+            }
+            <br />
+            .button
+            
+            {
+            <br />
+                background-color: #767676;
+                <br />
+                border-style: none;
+                <br />
+                border-radius:100px ;
+                <br />
+                width: 50px;
+                <br />
+                height: 50px;
+                <br />
+                margin-top: 40px;
+                <br />
+                box-shadow: 0px 0px 10px 1px #B4B4B4;
+                <br />
+            }
+            <br />
+            .reset
+            {
+            <br />
+                background-color: #767676;
+                <br />
+                border-style: none;
+                <br />
+                border-radius:100px ;
+                <br />
+                width: 30px;
+                <br />
+                height: 30px;
+                <br />
+                margin-top: -70px;
+                <br />
+                margin-left: 100px;
+                <br />
+                box-shadow: 0px 0px 10px 1px #B4B4B4;
+                <br />
+            }
+            <br />
+            .form
+            {
+            <br />
+                margin-top: 50px;
+                <br />
+            }
+            <br />
+            .text
+            
+            {
+            
+                background-color: black;
+                <br />
+                
+                color: white;
+                <br />
+                width: 200px;
+                <br />
+            }
+            <br />
+            .belt1
+            {
+            <br />
+                background-color: #D2D2D2;
+                <br />
+                border-top-right-radius:100px ;
+                <br />
+                border-top-left-radius:100px ;
+                <br />
+                width: 100px;
+                <br />
+                height:300px ;
+                <br />
+                margin-top: 100px;
+                <br />
+                margin-left: 95px;
+                
+                <br />
+                border-style: none;
+                <br />
+            }
+            <br />
+            .belt2
+            {
+            <br />
+                background-color: #D2D2D2;
+                <br />
+                border-bottom-right-radius:100px ;
+                <br />
+                border-bottom-left-radius:100px ;
+                <br />
+                width: 100px;
+                <br />
+                height:300px ;
+                <br />
+                margin-top:200px;
+                <br />
+                margin-left: 95px;
+                <br />
+                border-style: none;
+                <br />
+               
+            }
+            <br />
+            .div1
+            {
+                background-color: white;
+                <br />
+                width: 25px;
+                
+                <br />height: 25px;
+                <br />
+                border-radius: 100px;
+                <br />
+                margin-top: 20px;<br />
+                margin-left: 35px;<br />
+            }<br />
+            .div2
+            {<br />
+                background-color: white;<br />
+                width: 25px;<br />
+                height: 25px;<br />
+                border-radius: 100px;<br />
+                margin-top: 30px;<br />
+                margin-left: 35px;<br />
+            }<br />
+            .div3
+            {<br />
+                background-color: white;<br />
+                width: 25px;<br />
+                height: 25px;<br />
+                border-radius: 100px;<br />
+                margin-top: 30px;<br />
+                margin-left: 35px;<br />
+            }<br />
+            .div4
+            {<br />
+                background-color: white;<br />
+                width: 25px;<br />
+                height: 25px;<br />
+                border-radius: 100px;<br />
+                margin-top: 30px;<br />
+                margin-left: 35px;<br />
+            }<br />
+            .div5
+            {<br />
+                background-color: white;<br />
+                width: 25px;<br />
+                height: 25px;<br />
+                border-radius: 100px;<br />
+                margin-top: 30px;<br />
+                margin-left: 35px;<br />
+            }<br />
+            .div6
+            {<br />
+                background-color: #D2D2D2;<br />
+                width: 23px;<br />
+                height: 23px;<br />
+                border-radius: 100px;<br />
+                margin-top: 50px;<br />
+                margin-left: 35px;<br />
+                box-shadow: 0px 0px 1px 1px black;
+                <br />
+            }<br />
+            .div7
+            {<br />
+                background-color: #D2D2D2;
+                <br />
+                width: 23px;<br />
+                height: 23px;<br />
+                border-radius: 100px;<br />
+                margin-top: 30px;<br />
+                margin-left: 35px;<br />
+                box-shadow: 0px 0px 1px 1px black;<br />
+            }
+            <br />
+            .div8
+            
+            {
+            <br />
+                background-color: #D2D2D2;
+                <br />
+                width: 23px;
+                <br />
+                height: 23px;
+                <br />
+                border-radius: 100px;
+                <br />
+                margin-top: 30px;
+                <br />
+                margin-left: 35px;
+                <br />
+                box-shadow: 0px 0px 1px 1px black;
+                <br />
+            }
+            <br />
+            .div9
+            {<br />
+                background-color: #D2D2D2;
+                    <br />
+                width: 23px;
+                <br />
+                height: 23px;
+                <br />
+                border-radius: 100px;
+                <br />
+                margin-top: 30px;
+                <br />
+                margin-left: 35px;
+                <br />
+                box-shadow: 0px 0px 1px 1px black;
+                <br />
+            }
+            <br />
+            .div10
+            {
+            <br />
+                background-color: #D2D2D2;
+                <br />
+                width: 23px;
+                <br />
+                height: 23px;
+                <br />
+                border-radius: 100px;
+                <br />
+                margin-top: 30px;
+                <br />
+                margin-left: 35px;
+                <br />
+                box-shadow: 0px 0px 1px 1px black;
+                <br />
+            }
+                       </code>
+                   </b>
+               </fieldset>
+           </div>
+           <p align="right" class="p1">٣ - نعمل run لشفيرة :- </p>
+           <div>
+               <fieldset class="runo">
+                   <legend  class="elnoby">ELNOBY WEB</legend>
+                   <fieldset class="azam1">
+            <div class="div1">
+                
+            </div>
+            <div class="div2">
+                
+            </div>
+            <div class="div3">
+                
+            </div>
+            <div class="div4">
+                
+            </div>
+            <div class="div5">
+                
+            </div>
+        </fieldset>
+        <fieldset class="fieldset" dir="rtl" align="center">
+            <br />
+            <form name="sba" class="form">
+                    <input type="text" id="screen"  placeholder="0" class="screen" disabled/>
+                <br />
+                    <input type="button" value="" onclick="sba.screen.value-=-' 1'" class="button"/>
+                    <br />
+                    <input type="reset" value="" onclick="sba.screen.value+=''" class="reset"/>
+            </form>
+        </fieldset>
+        <fieldset class="azam2">
+            <div class="div6">
+                
+            </div>
+            <div class="div7">
+                
+            </div>
+            <div class="div8">
+                
+            </div>
+            <div class="div9">
+                
+            </div>
+            <div class="div10">
+                
+            </div>
+        </fieldset>
+               </fieldset>
+           </div>
+           <div class="">
+               <b>تم بحمد الله ، يارب تكونو فهمتم من شرحى </b>
+           </div>
+           <hr />
+            <div class="divdiv">
+                لو فى أي غلط فى الشرح أو الكود راسلني على :-
+                <br />
+                <a href="mailto: abdoelnobyweb88@gmail.com"><button type="button" class="button55"><b>Gmail</b></button></a>
+             <a href=""><button type="button" class="button56"><b>Facebook</b></button></a>
+            </div>
+           <hr />
+           <table class="table" border="1">
+               <tr>
+                   <td class="tab1">مطور </td>
+                  <td>عبده النوبى</td>
+               </tr>
+               <tr>
+                   <td class="tab2">تخصص</td>
+                   <td>مهندس برمجيات </td>
+               </tr>
+               <tr>
+                   <br />
+                   <td class="tab3">كل الحقوق محفوظه ©</td>
+               </tr>
+           </table>
+       </fieldset>
+    </body>
+</html>
